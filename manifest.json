@@ -6,9 +6,11 @@
   "description": "An Unofficial trustvox app to insert trustvox ID into a VTEX IO STORE",
   "billingOptions": {
     "type": "free",
-    "availableCountries": [
-      "*"
-    ]
+    "support": {
+        "email": "support@geradordeideias.com",
+        "url": "https://www.geradordeideias.com/"
+      },
+    "availableCountries" : ["*"]
   },
   "builders": {
     "react": "3.x",
