@@ -2,10 +2,7 @@
 <script type="text/javascript" src="//colt.trustvox.com.br/colt.min.js"></script> 
 <script>
   // instancia o widget na sua página
-  window._trustvox_initializer.initialize();
-
-  // remove/unload o widget da página
-  window._trustvox_initializer.cleanup();
+  !function(t){var e=function(){var t="base".split(","),e=n();return-1!==t.indexOf(e)?e:"base"},n=function(){for(var t,e="art,biz,blog,br,club,com,etc,far,ind,me,net,online,sexy,store,tk,vc",n=window.location.hostname.split("."),s=n.length,o=s,a=n[n.length-1].length;t=n[--o];)if(e.indexOf(t)<0||t.length<a||s-2>o||0===o)return t;return t},s=function(n){var s=t.document.getElementsByTagName("script")[0],o=t.document.createElement("script");return o.src="//colt.trustvox.com.br/"+e()+".min.js",o.async=!0,s.parentNode.insertBefore(o,s),n&&"function"==typeof n&&(o.onload=n),o},o=function(){tag=t.document.createElement("link"),tag.type="text/css",tag.rel="stylesheet",tag.href="//colt.trustvox.com.br/stylesheets/"+e()+".css",t.document.head.appendChild(tag)};t.tvjs=s,t.tvcss=o,t.tvjs(),t.tvcss()}(window);
 
   var _trustvox_colt = _trustvox_colt || [];
   _trustvox_colt.push(['_storeId', '{{settings.storeId}}'], ['_limit', '7']);
